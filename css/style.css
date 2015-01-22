@@ -1,0 +1,109 @@
+
+html {
+	background: #2e2e2e;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	font-style: italic;
+}
+b {
+	color: white;
+	border: 10px;
+}
+#menu {
+	width:280px;
+	height:100%;
+	position:fixed;
+	z-index:10;
+	background:#232323;
+	left:-250px;
+}
+#menu:hover {
+left:0px;
+}
+
+
+#t
+ {
+	width:950px;
+	height:950px;
+	position:relative;
+	margin:0 auto;
+	border-color:red;
+
+} 
+
+.absClass
+{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	background: #ccc;
+	-webkit-border-radius:9px;
+	font-size: 0px;
+	box-shadow: 0px 0px 5px #ffffff;
+	text-align: center;
+	line-height: 18px;
+	cursor: pointer;
+
+}
+
+.selected {
+	background: #FF0066 !important;
+}
+
+.selected2 {
+	background: #3399FF !important;
+}
+
+
+.selected3 {
+	background: #FF00FF !important;
+}
+
+.selected4 {
+	background: #33FF00 !important;
+}
+
+.selected5 {
+	background: #FFCC00 !important;
+}
+
+.fountainbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.fountainbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.fountainbutton:active {
+	position:relative;
+	top:1px;
+}
+.down {
+position: absolute;
+bottom: 60px;
+left: 20px;
+margin-left: 28px;
+padding: 10px;
+height: auto;
+width: auto;
+border-top: 3px solid #e5e5e5;
+}
